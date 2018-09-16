@@ -214,6 +214,62 @@ print a
 </details>
 
 ##
+### Working with tuples
+<details>
+ <summary> Click to expand </summary>
+
+```js
+a = (1)
+print type(a)
+a = (1,)
+print type(a)
+
+a = (1, 2, 2, 2, 3, 4, 2)
+print 'a =', a
+print '2 apare de %s ori in tupla' % a.count(2)
+print '4 apare in tupla pe pozitia %d' % a.index(4)
+ 
+my_list = [1, 2, 3]
+my_set = {4, 5, 6}
+print tuple(my_list)
+print tuple(my_set)
+ 
+print '*' * 60
+a = [1, 2, 3, 4]
+b = (5, 6, 7, a)
+print b
+a.append(9)
+print b
+
+Tuples continued
+# more on tuples
+print '*' * 60
+c = [9999, 333]
+a = 1, 2, 3, 4, 5, c
+print a
+print type(a)
+print a[5][0]
+ 
+print '*' * 60
+a, b = 1, 2
+print a
+print b
+ 
+# print '*' * 60
+# a, b = 1, 2, 3
+ 
+print '*' * 60
+a = (11, 22, 33)
+a1, a2, a3 = a
+print a1
+print a2
+print a3
+# a[0] = 1
+```
+
+</details>
+
+##
 ### Working with sets
 <details>
  <summary> Click to expand </summary>
