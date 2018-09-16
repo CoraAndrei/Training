@@ -214,7 +214,7 @@ print a
 </details>
 
 ##
-### Working with sets and tuples
+### Working with sets
 <details>
  <summary> Click to expand </summary>
 
@@ -254,6 +254,15 @@ print 'a+b: ', uni
 
 inter = a.intersection(b)
 print 'a intersected with b: ', inter
+
+# converting to and from lists
+my_list = [1, 2, 3]
+my_set = set(my_list)
+print my_set
+
+my_new_list = list(my_set)
+print my_new_list
+
 ```
 
 </details>
