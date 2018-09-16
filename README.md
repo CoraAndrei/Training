@@ -220,6 +220,40 @@ print a
 
 ```js
 
+a = {1, 2, 3}
+b = set([1,2,3])
+print type(a), type(b)
+
+a.add(4)
+print 'a =', a
+#a.add(5, 6)
+#len(a)
+#a.add((5,6))
+#a.add([7,8])
+#a.update([7,8])
+#a.update()
+
+b = a
+b.add(9)
+print a,b
+
+b = a.copy()
+b.add(10)
+print a,b
+
+a.remove(1)
+a.pop
+
+#Operation between two sets
+
+diff = b.difference(a)
+print 'b-a: ', diff
+
+uni = a.union(b)
+print 'a+b: ', uni
+
+inter = a.intersection(b)
+print 'a intersected with b: ', inter
 ```
 
 </details>
