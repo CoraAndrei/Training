@@ -1,1 +1,257 @@
-# Training
+# Session 1
+
+## Data Types in Python
+
+
+Data Type | Data value
+------------ | -------------
+Integers | 5, 8, 400
+Float | 4.3, 5.7, 12.3
+String | words, characters
+Boolean | True or False
+List | [1, 2, 3, 4]  
+Dictionaries | {1:'first', 2:'second'}
+Tuples | (1,2,3)
+Sets | [1, 2, 3]
+
+##
+### Using **print** function to display the type of a variable:
+<details>
+ <summary>Click to expand</summary>
+ 
+ ```js
+
+- print "True is of type:", type(True)
+  - True is of type: <type 'bool'>
+
+- print "'ion' is of type:", type('ion')
+  - ion is of type: <type 'str'>
+
+- print "100 is of type:", type(100)
+  - 100 is of type: <type 'int'>
+
+- print "3.14 is of type:", type(3.14)
+  - 100 is of type: <type 'float'>
+
+- print "[1, 2, 3] is of type:", type([1, 2, 3])
+  - [1, 2, 3] is of type: <type 'list'>
+
+- print "(1, 2, 3) is of type:", type((1, 2, 3))
+  - (1, 2, 3) is of type: <type 'tuple'>
+  
+- print "{1, 2, 3} is of type:", type({1, 2, 3})
+  - {1, 2, 3} is of type: <type 'set'>
+
+- print "{1: 2}) is of type:", type({1: 2})
+  - {1: 2}) is of type: <type 'dict'>
+  
+- print type(True)
+  - <type 'bool'>
+
+- print type(1)
+  - <type 'int'>
+  
+- print type(True) == type(1)
+  - False
+
+- print True == 1
+  - True
+  
+ ```
+ 
+</details>
+
+
+##
+### Reading keyboard input
+<details>
+ <summary> Click to expand </summary>
+ 
+```js
+
+name = raw_input("Give me a name: ")
+print "Your name is: %s" % name
+
+value1= raw_input("Give me a value: ")
+value2= raw_input("Give me anoter name: ")
+print 'The sum is: %s' % value1 + value2
+
+sum = int(value1) + int(value2)
+print 'The sum is: %d' % sum
+
+print "Name: %s, Age: %d" % ('John', 22)
+  
+```
+</details>
+
+
+##
+### Working with basic arithmetic operators
+<details>
+ <summary>Click to expand </summary>
+
+```js
+import math
+
+#from math import sqrt
+
+a = 5 
+b = 4
+s = 'string'
+
+print a+b
+print type(a+b)
+print '\n'
+
+print a/b 
+print type(a/b)
+
+print a*b
+print type(a/b)
+
+print a%b
+print type(a/b)
+
+print '\n'
+
+c = 2.5
+print type(c*a)
+
+print math.sqrt(b)
+
+print str(a) + s
+print s * 5
+
+
+> Operations with Strings
+
+s = 'hi'
+c = 5
+print s[1]
+print len(s)
+print s + 'there'
+print 'Value of c is:' + c
+print 'Value of c is:' + str(c)
+print 'value of c is: %d ' % c
+
+```
+
+</details>
+
+##
+### Working with lists
+<details>
+ <summary> Click to expand </summary>
+
+```js
+>Functions 'append, extend and insert'
+a = [1, 2, 3, 4, 5]
+b = a
+
+print a
+print type(a)
+
+a.append(6)
+print a
+
+a.append(['ana', 'are', 'mere']) #use also extend to see the list length difference
+print a
+print len(a)
+
+a.insert(1, 'new')
+print a
+
+#time_difference_file
+
+
+>Functions 'pop and remove'
+a = [1, 2, 3, 4, 5, 1]
+a.pop(1) #use also remove to see the difference
+print a
+
+>Function index
+print a.index(2)
+
+>Function reverse
+a.reverse()
+print a
+
+>Function sort
+a.sort()
+print a
+
+>Slicing
+a = [1, 2, 3, 4, 5]
+print a[2:4]
+print a[:2]
+print a[2:]
+
+b = a 
+b[1] = 'elem'
+print b
+print a
+
+b= a[:]
+b[1] = 2
+print '\n', b
+print a
+
+```
+</details>
+
+##
+### Working with sets and tuples
+<details>
+ <summary> Click to expand </summary>
+
+```js
+
+```
+
+</details>
+
+##
+### Working with dictionaries
+<details>
+ <summary> Click to expand </summary>
+
+```js
+#basics
+a  = {'key': 'value'}
+print a
+print type(a)
+
+a[1] = 10
+print a
+
+a['list'] = [1, 2, 3]
+
+a[1, 2] = (1,2)   #tuple as a key
+print a
+
+a[[1, 2]] = [1, 2, 3]   #list as a key
+print a
+
+a  = {'first': 'element', 1: 4, 'third': 5, (1, 2): None, 'testing': 'another one'}
+print a
+
+> Operations with dictionaries
+#delete operation
+del a['third']
+print a
+
+#add operation
+a['third'] =  4
+print a
+
+#update operation
+a['third'] = 5
+print a
+
+print 'Dictionary keys:', a.keys()
+print 'Dictionary values:', a.values()
+print 'Dictionary items:', a.items()
+
+```
+
+</details>
