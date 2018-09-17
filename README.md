@@ -384,6 +384,13 @@ current_date = datetime.datetime.now()
 print type(current_date)
 print current_date
 
+tday = datetime.date.today()
+print(tday.weekday())
+print(tday.isoweekday())
+
+tdelta = datetime.timedelta(days=7)
+print tday + tdelta
+
 my_custom_date = datetime.datetime(2000, 12, 12, 14, 59, 59)
 print type(current_date)
 print my_custom_date
