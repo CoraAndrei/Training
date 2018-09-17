@@ -368,3 +368,49 @@ print 'Dictionary items:', a.items()
 ```
 
 </details>
+
+##
+### Working with datetime
+<details>
+ <summary> Click to expand </summary>
+ 
+```js
+# datetime features
+import datetime
+import time
+ 
+current_date = datetime.datetime.now()
+ 
+print type(current_date)
+print current_date
+
+my_custom_date = datetime.datetime(2000, 12, 12, 14, 59, 59)
+print type(current_date)
+print my_custom_date
+
+t1 = datetime.datetime.now()
+print t1
+time.sleep(5)
+t2 = datetime.datetime.now()
+print t2
+dif = t2 - t1
+print dif
+print type(dif)
+
+from datetime import datetime as dt
+ 
+now = dt.now()
+print now
+ 
+# printing date in a custom format
+my_now = now.strftime('%A, %d %B %Y')
+print my_now
+ 
+# constructing a datetime object from a string
+str_date = "22/03/2012 - 09:57"
+new_date = dt.strptime(str_date, "%d/%m/%Y - %H:%M")
+print new_date
+print type(new_date)
+```
+
+</details>
