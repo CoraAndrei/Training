@@ -87,6 +87,7 @@ print x is y
  ```
  
 </details>
+
 ##
 ### Reading keyboard input
 <details>
@@ -113,6 +114,7 @@ print "Name: %s, Age: %d" % ('John', 22)
   
 ```
 </details>
+
 ##
 ### Working with basic arithmetic operators
 <details>
@@ -150,6 +152,7 @@ print 'Value of c is:' + str(c)
 print 'value of c is: %d ' % c
 ```
 </details>
+
 ##
 ### Working with lists
 <details>
@@ -195,6 +198,7 @@ print '\n', b
 print a
 ```
 </details>
+
 ##
 ### Working with tuples
 <details>
@@ -278,6 +282,7 @@ my_new_list = list(my_set)
 print my_new_list
 ```
 </details>
+
 ##
 ### Working with dictionaries
 <details>
