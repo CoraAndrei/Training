@@ -96,20 +96,26 @@ print x is y
 ```js
 name = raw_input("Give me a name: ")
 print "Your name is: %s" % name
+
 value1= raw_input("Give me a value: ")
 value2= raw_input("Give me anoter name: ")
 print 'The sum is: %s' % value1 + value2
+
 value1= int(raw_input("Give me a value: "))
 value2= int(raw_input("Give me anoter name: "))
 sum = int(value1) + int(value2)
 print 'The sum is: %d' % sum
+
 ch = raw_input("Enter a character: ")[0]
 print ch
+
 ch = raw_input("Enter a character: ")[0:6]
 print ch
+
 result = eval(raw_input("Give me an expression: "))
 print result
-argv file
+
+//argv file
 
 print "Name: %s, Age: %d" % ('John', 22)  
 ```
@@ -124,31 +130,37 @@ print "Name: %s, Age: %d" % ('John', 22)
 ```js
 import math
 #from math import sqrt
+
 a = 5 
 b = 4
 s = 'string'
+
 print a+b
 print type(a+b)
-print '\n'
+
 print a/b 
 print type(a/b)
-print a*b
-print type(a/b)
 //print a//b
+
+print a*b
 print a%b
 print type(a/b)
-print '\n'
+
 c = 2.5
 print type(c*a)
 print math.sqrt(b)
+
 print str(a) + s
 print s * 5
+
 > Operations with Strings
 s = 'hi'
 c = 5
+
 print s[1]
 print len(s)
 print s + 'there'
+
 print 'Value of c is:' + c
 print 'Value of c is:' + str(c)
 print 'value of c is: %d ' % c
@@ -165,33 +177,43 @@ print 'value of c is: %d ' % c
 >Functions 'append, extend and insert'
 a = [1, 2, 3, 4, 5]
 b = a
+
 print a
 print type(a)
+
 a.append(6)
 print a
 a.append(['ana', 'are', 'mere']) #use also extend to see the list length difference
 print a
 print len(a)
+
 a.insert(1, 'new')
 print a
+
 #time_difference_file
+
 >Functions 'pop and remove'
 a = [1, 2, 3, 4, 5, 1]
 a.pop(1) #use also remove to see the difference
 print a
+
 >Function index
 print a.index(2)
+
 >Function reverse
 a.reverse()
 print a
+
 >Function sort
 a.sort()
 print a
+
 >Slicing
 a = [1, 2, 3, 4, 5]
 print a[2:4]
 print a[:2]
 print a[2:]
+
 b = a 
 b[1] = 'elem'
 print b
@@ -228,12 +250,14 @@ print '*' * 60
 a = [1, 2, 3, 4]
 b = (5, 6, 7, a)
 print b
+
 a.append(9)
 print b
 c = [9999, 333]
 a = 1, 2, 3, 4, 5, c
 print a
 print type(a)
+
 print a[5][0]
 a, b = 1, 2
 print a
@@ -260,33 +284,42 @@ print a3
 a = {1, 2, 3}
 b = set([1,2,3])
 print type(a), type(b)
+
 a.add(4)
 print 'a =', a
+
 //a.add(5, 6)
 //len(a)
 //a.add((5,6))
 //a.add([7,8])
 //a.update([7,8])
 //a.update()
+
 b = a
 b.add(9)
 print a,b
+
 b = a.copy()
 b.add(10)
 print a,b
 a.remove(1)
 a.pop
+
 #Operation between two sets
 diff = b.difference(a)
 print 'b-a: ', diff
+
 uni = a.union(b)
 print 'a+b: ', uni
+
 inter = a.intersection(b)
 print 'a intersected with b: ', inter
+
 // converting to and from lists
 my_list = [1, 2, 3]
 my_set = set(my_list)
 print my_set
+
 my_new_list = list(my_set)
 print my_new_list
 ```
@@ -303,25 +336,32 @@ print my_new_list
 a  = {'key': 'value'}
 print a
 print type(a)
+
 a[1] = 10
 print a
+
 a['list'] = [1, 2, 3]
 a[1, 2] = (1,2)   #tuple as a key
 print a
+
 a[[1, 2]] = [1, 2, 3]   #list as a key
 print a
 a  = {'first': 'element', 1: 4, 'third': 5, (1, 2): None, 'testing': 'another one'}
 print a
+
 > Operations with dictionaries
 #delete operation
 del a['third']
 print a
+
 //add operation
 a['third'] =  4
 print a
+
 //update operation
 a['third'] = 5
 print a
+
 print 'Dictionary keys:', a.keys()
 print 'Dictionary values:', a.values()
 print 'Dictionary items:', a.items()
