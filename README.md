@@ -109,16 +109,18 @@ ch = raw_input("Enter a character: ")[0:6]
 print ch
 result = eval(raw_input("Give me an expression: "))
 print result
-//argv file
-print "Name: %s, Age: %d" % ('John', 22)
-  
+argv file
+
+print "Name: %s, Age: %d" % ('John', 22)  
 ```
+
 </details>
 
 ##
 ### Working with basic arithmetic operators
 <details>
- <summary>Click to expand </summary>
+ <summary> Click to expand </summary>
+ 
 ```js
 import math
 #from math import sqrt
@@ -151,12 +153,14 @@ print 'Value of c is:' + c
 print 'Value of c is:' + str(c)
 print 'value of c is: %d ' % c
 ```
+
 </details>
 
 ##
 ### Working with lists
 <details>
  <summary> Click to expand </summary>
+ 
 ```js
 >Functions 'append, extend and insert'
 a = [1, 2, 3, 4, 5]
@@ -197,12 +201,14 @@ b[1] = 2
 print '\n', b
 print a
 ```
+
 </details>
 
 ##
 ### Working with tuples
 <details>
  <summary> Click to expand </summary>
+ 
 ```js
 a = (1)
 print type(a)
@@ -242,11 +248,14 @@ print a2
 print a3
 # a[0] = 1
 ```
+
 </details>
+
 ##
 ### Working with sets
 <details>
  <summary> Click to expand </summary>
+ 
 ```js
 a = {1, 2, 3}
 b = set([1,2,3])
@@ -281,12 +290,14 @@ print my_set
 my_new_list = list(my_set)
 print my_new_list
 ```
+
 </details>
 
 ##
 ### Working with dictionaries
 <details>
  <summary> Click to expand </summary>
+ 
 ```js
 //basics
 a  = {'key': 'value'}
@@ -315,4 +326,5 @@ print 'Dictionary keys:', a.keys()
 print 'Dictionary values:', a.values()
 print 'Dictionary items:', a.items()
 ```
+
 </details>
