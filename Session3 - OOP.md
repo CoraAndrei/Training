@@ -3,6 +3,9 @@
 
 
 # Classes
+
+<details>
+
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
@@ -122,6 +125,7 @@ if __name__ == "__main__":
         data.print_info()
  ```
 
+</details>
 
 # Inheritance
 
@@ -163,7 +167,7 @@ core.print_server_information()
 
  ```js
  
-##Special methods
+## Special methods
 # Overwrite default/built in methods
  
 class PersonalData:
