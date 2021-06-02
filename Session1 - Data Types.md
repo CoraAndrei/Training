@@ -12,7 +12,6 @@ Tuples | (1,2,3)
 Sets | {1, 2, 3}
 ##
 ## Everything is an object in Python
- ![alt text](https://github.houston.softwaregrp.net/andrei-cora/Training---repo/blob/master/gits.png)
  - In Python a name is just a label for a certain object
  - Each certain name references a certain object
  
