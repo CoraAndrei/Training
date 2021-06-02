@@ -9,14 +9,8 @@
  
  ```js
 import socket
- 
-# How to create classes 2
- 
-# Build on previous example
- 
-# Constructors
- 
- 
+
+
 class Server:
     """ Holds all server related operations, regardless of the OS """
     def __init__(self, hostname, procs=2, mem=4):
