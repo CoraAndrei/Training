@@ -86,7 +86,6 @@ if __name__ == "__main__":
 2. Add several PersonalData objects to a list.
      - Find the oldest person
      - Sort the list alphabetically
-"""
 
  ```js
 import random
@@ -123,8 +122,7 @@ if __name__ == "__main__":
  ```
 
 
-Inheritance
-# Inheritance 2
+# Inheritance
 
  ```js
 from example2 import Server
@@ -160,6 +158,9 @@ core.print_server_information()
  
 core.start_services()
 core.print_server_information()
+ ```
+
+ ```js
 Special methods
 # Overwrite default/built in methods
  
@@ -184,6 +185,9 @@ print data1
 data2 = PersonalData("Titus", "25")
  
 print data1 == data2
+```
+
+```js
 Static variables and methods
 # decorators, static, static methods
  
@@ -210,7 +214,7 @@ print PersonalData.employee_id
 data1 = PersonalData("Titus", "25")
 print PersonalData.employee_id
 print PersonalData.get_free_id()
- ```
+```
 
 Homework
 1. Create a class to represent complex numbers. Implement methods to add,
