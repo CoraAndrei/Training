@@ -5,7 +5,7 @@
 ## Classes
  - How to create a class
  - Constructors
- - Self parameter
+ - Self parameter -> reference to the current instance of the class
 
  
  ```js
