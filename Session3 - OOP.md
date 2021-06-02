@@ -4,12 +4,11 @@
 
 ##
 ## Classes
- ![alt text](https://github.houston.softwaregrp.net/andrei-cora/Training---repo/blob/master/gits.png)
- - In Python a name is just a label for a certain object
- - Each certain name references a certain object
+ - How to create a class
+ - Constructors
+
  
  ```js
-How to create a class
 import socket
  
 # How to create classes 2
