@@ -2,7 +2,7 @@
 ## OOP | Exceptions | Files in Python
 
 
-# Classes
+## Classes
 
 <details>
 
@@ -127,9 +127,9 @@ if __name__ == "__main__":
 
 </details>
 
-# Inheritance
+## Inheritance
 
- <details>
+<details>
 
  ```js
 from example2 import Server
@@ -225,11 +225,11 @@ print PersonalData.get_free_id()
 ```
 </details>
  
-# Encapsulation
+## Encapsulation
 
  - restricted acces to methods and variables
  
- <details>
+<details>
  ```js
  class Computer:
 
@@ -254,9 +254,9 @@ c.setMaxPrice(1000)
 c.sell()
  ```
  
- </details>
+</details>
  
-# Polymorphism
+## Polymorphism
 
  - abbility to use common methods for different classes
 <details>
