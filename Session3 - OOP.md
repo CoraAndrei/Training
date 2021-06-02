@@ -2,7 +2,7 @@
 ## OOP | Exceptions | Files in Python
 
 
-## Classes
+# Classes
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
@@ -123,7 +123,7 @@ if __name__ == "__main__":
  ```
 
 
-## Inheritance
+# Inheritance
 
  ```js
 from example2 import Server
@@ -163,7 +163,7 @@ core.print_server_information()
 
  ```js
  
-###Special methods
+##Special methods
 # Overwrite default/built in methods
  
 class PersonalData:
@@ -218,7 +218,7 @@ print PersonalData.employee_id
 print PersonalData.get_free_id()
 ```
 
-## Encapsulation
+# Encapsulation
 
  - restricted acces to methods and variables
  
@@ -247,7 +247,7 @@ c.sell()
  ```
  
  
-## Polymorphism
+# Polymorphism
 
  - abbility to use common methods for different classes
 
@@ -283,7 +283,7 @@ flying_test(peggy)
 
 
 
-## Homework
+# Homework
 
 1. Create a class to represent complex numbers. Implement methods to add,
 subtract and multiply two complex numbers
