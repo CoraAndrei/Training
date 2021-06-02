@@ -123,7 +123,7 @@ if __name__ == "__main__":
  ```
 
 
-# Inheritance
+## Inheritance
 
  ```js
 from example2 import Server
@@ -217,7 +217,7 @@ print PersonalData.employee_id
 print PersonalData.get_free_id()
 ```
 
-# Encapsulation
+## Encapsulation
 
  - restricted acces to methods and variables
  
@@ -246,7 +246,7 @@ c.sell()
  ```
  
  
-# Polymorphism
+## Polymorphism
 
  - abbility to use common methods for different classes
 
