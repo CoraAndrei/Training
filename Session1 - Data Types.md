@@ -190,9 +190,6 @@ print len(a)
 a.insert(1, 'new')
 print a
  
-Exercises: https://pynative.com/python-list-exercise-with-solutions/
-
-
 #time_difference_file
 
 >Functions 'pop and remove'
@@ -226,7 +223,9 @@ b[1] = 2
 print '\n', b
 print a
 ```
+Exercises: https://pynative.com/python-list-exercise-with-solutions/
 
+ 
 </details>
 
 ##
