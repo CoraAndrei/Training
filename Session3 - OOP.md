@@ -245,14 +245,15 @@ print PersonalData.get_free_id()
 c = Computer()
 c.sell()
 
-# change the price
+### change the price
 c.__maxprice = 1000
 c.sell()
 
-# using setter function
+### using setter function
 c.setMaxPrice(1000)
 c.sell()
  ```
+ 
  </details>
  
 # Polymorphism
