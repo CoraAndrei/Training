@@ -2,7 +2,6 @@
 ## OOP | Exceptions | Files in Python
 
 
-##
 ## Classes
  - How to create a class
  - Constructors
