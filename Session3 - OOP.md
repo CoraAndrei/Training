@@ -162,7 +162,8 @@ core.print_server_information()
  ```
 
  ```js
-Special methods
+ 
+###Special methods
 # Overwrite default/built in methods
  
 class PersonalData:
