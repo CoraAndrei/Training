@@ -9,11 +9,9 @@
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
-
  
  ```js
 import socket
-
 
 class Server:
     """ Holds all server related operations, regardless of the OS """
@@ -77,10 +75,8 @@ if __name__ == "__main__":
     else:
         print "Unable to start this process."
     print dir(linux_server)
-
 ```
 
-"""
 1. Create a class:
     PersonalData:
         + name
@@ -130,7 +126,6 @@ if __name__ == "__main__":
 ## Inheritance
 
 <details>
-
  ```js
 from example2 import Server
  
@@ -165,12 +160,12 @@ core.print_server_information()
  
 core.start_services()
 core.print_server_information()
- ```
+```
 
  ```js
  
-## Special methods
-# Overwrite default/built in methods
+### Special methods
+### Overwrite default/built in methods
  
 class PersonalData:
     def __init__(self, name, age):
