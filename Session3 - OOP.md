@@ -282,7 +282,8 @@ flying_test(peggy)
 
 
 
-Homework
+## Homework
+
 1. Create a class to represent complex numbers. Implement methods to add,
 subtract and multiply two complex numbers
 
