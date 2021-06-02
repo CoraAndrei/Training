@@ -74,7 +74,8 @@ if __name__ == "__main__":
         print "Unable to start this process."
     print dir(linux_server)
 
-Class example
+```
+
 """
 1. Create a class:
     PersonalData:
@@ -86,10 +87,12 @@ Class example
      - Find the oldest person
      - Sort the list alphabetically
 """
+
+ ```js
 import random
  
  
-class PersonalData:
+ class PersonalData:
     def __init__(self, name, age):
         self.name = name
         self.age = age
@@ -117,10 +120,13 @@ if __name__ == "__main__":
     data_list = sorted(data_list, key=lambda a: a.name)
     for data in data_list:
         data.print_info()
+ ```
+
 
 Inheritance
 # Inheritance 2
- 
+
+ ```js
 from example2 import Server
  
 # class Server:
@@ -204,6 +210,8 @@ print PersonalData.employee_id
 data1 = PersonalData("Titus", "25")
 print PersonalData.employee_id
 print PersonalData.get_free_id()
+ ```
+
 Homework
 1. Create a class to represent complex numbers. Implement methods to add,
 subtract and multiply two complex numbers
@@ -264,7 +272,7 @@ there is no special rule when adding cards
 the card values are from 1 to 11: A=1, J=Q=K=10
 the AI stop when sum is higher than 18
 you are asked to draw cards until you decide to stop.
-```
+
   
  
  
