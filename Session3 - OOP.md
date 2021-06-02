@@ -5,6 +5,7 @@
 ## Classes
  - How to create a class
  - Constructors
+ - Self parameter
 
  
  ```js
@@ -215,6 +216,71 @@ data1 = PersonalData("Titus", "25")
 print PersonalData.employee_id
 print PersonalData.get_free_id()
 ```
+
+# Encapsulation
+
+ - restricted acces to methods and variables
+ 
+ ```js
+ class Computer:
+
+    def __init__(self):
+        self.__maxprice = 900
+
+    def sell(self):
+        print("Selling Price: {}".format(self.__maxprice))
+
+    def setMaxPrice(self, price):
+        self.__maxprice = price
+
+c = Computer()
+c.sell()
+
+# change the price
+c.__maxprice = 1000
+c.sell()
+
+# using setter function
+c.setMaxPrice(1000)
+c.sell()
+ ```
+ 
+ 
+# Polymorphism
+
+ - abbility to use common methods for different classes
+
+```js
+class Parrot:
+
+    def fly(self):
+        print("Parrot can fly")
+    
+    def swim(self):
+        print("Parrot can't swim")
+
+class Penguin:
+
+    def fly(self):
+        print("Penguin can't fly")
+    
+    def swim(self):
+        print("Penguin can swim")
+
+# common interface
+def flying_test(bird):
+    bird.fly()
+
+#instantiate objects
+blu = Parrot()
+peggy = Penguin()
+
+# passing the object
+flying_test(blu)
+flying_test(peggy)
+```
+
+
 
 Homework
 1. Create a class to represent complex numbers. Implement methods to add,
