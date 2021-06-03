@@ -289,8 +289,24 @@ except:
   print("An exception occurred")
 ```
 
+- Using else keyword if no errors are raised during block execution
 
+```js
+try:
+  print("Hello")
+except:
+  print("Something went wrong")
+else:
+  print("Nothing went wrong")
+```
 
+- Raising an exception if a certain condition occurs
+```js
+x = -1
+
+if x < 0:
+  raise Exception("Sorry, no numbers below zero")
+```
 
 
 # Homework classes
