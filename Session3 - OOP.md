@@ -164,8 +164,8 @@ core.print_server_information()
 
 ```js
  
-### Special methods
-### Overwrite default/built in methods
+- Special methods
+- Overwrite default/built in methods
  
 class PersonalData:
     def __init__(self, name, age):
@@ -191,8 +191,8 @@ print data1 == data2
 ```
 
 ```js
-Static variables and methods
-# decorators, static, static methods
+- Static variables and methods
+- decorators, static, static methods
  
  
 class PersonalData:
