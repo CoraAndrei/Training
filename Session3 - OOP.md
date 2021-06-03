@@ -4,8 +4,6 @@
 
 ## Classes
 
-<details>
-
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
@@ -121,11 +119,8 @@ if __name__ == "__main__":
         data.print_info()
 ```
 
-</details>
-
 ## Inheritance
 
-<details>
 ```js
 from example2 import Server
  
@@ -218,13 +213,11 @@ data1 = PersonalData("Titus", "25")
 print PersonalData.employee_id
 print PersonalData.get_free_id()
 ```
-</details>
  
 ## Encapsulation
 
  - restricted acces to methods and variables
  
-<details>
 ```js
  class Computer:
 
@@ -249,12 +242,9 @@ c.setMaxPrice(1000)
 c.sell()
 ```
  
-</details>
- 
 ## Polymorphism
 
  - abbility to use common methods for different classes
-<details>
 ```js
 class Parrot:
 
@@ -285,10 +275,7 @@ flying_test(blu)
 flying_test(peggy)
 ```
 
-</details>
-
 # Homework
-<details>
 1. Create a class to represent complex numbers. Implement methods to add,
 subtract and multiply two complex numbers
 
@@ -348,7 +335,3 @@ there is no special rule when adding cards
 the card values are from 1 to 11: A=1, J=Q=K=10
 the AI stop when sum is higher than 18
 you are asked to draw cards until you decide to stop.
-
-</details>
- 
- 
