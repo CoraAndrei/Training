@@ -1,12 +1,40 @@
 # Session 3
 ## OOP | Exceptions | Files in Python
 
+## Functions
+- Block of code that does a specific task that contains zero or more arguments
+```js
+def sum(num1, num2):
+   return (num1 + num2)
+```
+
+## Methods
+- Block of code that does a specific task asociated to a class/object.
+```js
+class Pet(object):
+   def my_method(self):
+      print("I am a Cat")
+cat = Pet()
+cat.my_method()
+```
 
 ## Classes
 
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
+ 
+```js
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+```
  
 ```js
 import socket
