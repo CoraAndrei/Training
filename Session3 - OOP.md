@@ -157,11 +157,10 @@ core.start_services()
 core.print_server_information()
 ```
 
-```js
- 
 - Special methods
 - Overwrite default/built in methods
- 
+
+```js
 class PersonalData:
     def __init__(self, name, age):
         self.name = name
@@ -184,12 +183,10 @@ data2 = PersonalData("Titus", "25")
  
 print data1 == data2
 ```
-
-```js
 - Static variables and methods
 - decorators, static, static methods
- 
- 
+
+```js
 class PersonalData:
     employee_id = 0
  
