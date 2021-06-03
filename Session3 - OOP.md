@@ -1,40 +1,12 @@
 # Session 3
 ## OOP | Exceptions | Files in Python
 
-## Functions
-- Block of code that does a specific task that contains zero or more arguments
-```js
-def sum(num1, num2):
-   return (num1 + num2)
-```
-
-## Methods
-- Block of code that does a specific task asociated to a class/object.
-```js
-class Pet(object):
-   def my_method(self):
-      print("I am a Cat")
-cat = Pet()
-cat.my_method()
-```
 
 ## Classes
 
  - How to create a class
  - Constructors
  - Self parameter -> reference to the current instance of the class
- 
-```js
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
  
 ```js
 import socket
@@ -300,7 +272,29 @@ flying_test(blu)
 flying_test(peggy)
 ```
 
-# Homework
+## Exceptions
+- When an error(exception) occurs, Python will normally stop and generate an error message.
+- try except block
+
+- Block of code that will generate an error because x is not defined
+```js
+print(x)
+```
+- Block of code that will generate an exception because x is not defined
+
+```js
+try:
+  print(x)
+except:
+  print("An exception occurred")
+```
+
+
+
+
+
+# Homework classes
+<details>
 1. Create a class to represent complex numbers. Implement methods to add,
 subtract and multiply two complex numbers
 
@@ -360,3 +354,9 @@ there is no special rule when adding cards
 the card values are from 1 to 11: A=1, J=Q=K=10
 the AI stop when sum is higher than 18
 you are asked to draw cards until you decide to stop.
+ 
+</details>
+
+# Homework methods and exceptions
+<details>
+</details>   
