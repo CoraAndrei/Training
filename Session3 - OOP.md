@@ -10,7 +10,7 @@
  - Constructors
  - Self parameter -> reference to the current instance of the class
  
- ```js
+```js
 import socket
 
 class Server:
@@ -87,7 +87,7 @@ if __name__ == "__main__":
      - Find the oldest person
      - Sort the list alphabetically
 
- ```js
+```js
 import random
  
  
@@ -119,14 +119,14 @@ if __name__ == "__main__":
     data_list = sorted(data_list, key=lambda a: a.name)
     for data in data_list:
         data.print_info()
- ```
+```
 
 </details>
 
 ## Inheritance
 
 <details>
- ```js
+```js
 from example2 import Server
  
 # class Server:
@@ -162,7 +162,7 @@ core.start_services()
 core.print_server_information()
 ```
 
- ```js
+```js
  
 ### Special methods
 ### Overwrite default/built in methods
@@ -225,7 +225,7 @@ print PersonalData.get_free_id()
  - restricted acces to methods and variables
  
 <details>
- ```js
+```js
  class Computer:
 
     def __init__(self):
@@ -247,7 +247,7 @@ c.sell()
 ### using setter function
 c.setMaxPrice(1000)
 c.sell()
- ```
+```
  
 </details>
  
