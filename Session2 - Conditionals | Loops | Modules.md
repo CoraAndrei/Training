@@ -17,6 +17,8 @@ Greater than or equal to: a >= b
 
 ##
 - Python if Statement Syntax:
+- Python relies on indentation
+
 
 ```js
 if expression
@@ -25,12 +27,17 @@ else
  Statement
 ```
 
-##
-- Python relies on indentation
+- 'elif' expression
 
 ```js
-a = 33
-b = 200
-if b > a:
-  print("b is greater than a")
+x = 5
+if x < 0:
+  x = 0
+  print('Negative changed to zero')
+elif x == 0:
+  print('Zero')
+elif x == 1:
+  print('Single')
+else:
+  print('More')
 ```
