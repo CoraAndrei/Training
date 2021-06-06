@@ -56,3 +56,23 @@ range(start, stop, step)
 range(5, 10) -> 5, 6, 7, 8, 9
 range(0, 10, 3) -> 0, 3, 6, 9
 ```
+
+##
+## For statements
+
+- used for iterating over items of any sequence
+
+```js
+# List of numbers
+numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
+
+# variable to store the sum
+sum = 0
+
+# iterate over the list
+for val in numbers:
+    sum = sum + val
+
+print("The sum is ", sum)
+```
+
