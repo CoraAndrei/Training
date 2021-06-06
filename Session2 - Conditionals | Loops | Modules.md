@@ -3,10 +3,8 @@
 
 
 ##
-## Everything is an object in Python
- ![alt text](https://github.houston.softwaregrp.net/andrei-cora/Training---repo/blob/master/gits.png)
- - In Python a name is just a label for a certain object
- - Each certain name references a certain object
+## Python Conditions and IF stataments
+ - Python supports the usual logical conditions from mathematics:
  
  ```js
  x = 300          //Reference count to object 300 is 1
