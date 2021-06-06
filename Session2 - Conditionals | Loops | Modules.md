@@ -32,12 +32,27 @@ else
 ```js
 x = 5
 if x < 0:
-  x = 0
-  print('Negative changed to zero')
+   x = 0
+   print('Negative changed to zero')
 elif x == 0:
-  print('Zero')
+   print('Zero')
 elif x == 1:
-  print('Single')
+   print('Single')
 else:
-  print('More')
+   print('More')
+```
+
+##
+## Range function
+
+- used when iterating over a sequence of numbers: range()
+```js
+for i in range(5):
+    print(i)
+```
+
+```js
+range(start, stop, step)
+range(5, 10) -> 5, 6, 7, 8, 9
+range(0, 10, 3) -> 0, 3, 6, 9
 ```
