@@ -15,6 +15,17 @@ Greater than: a > b
 Greater than or equal to: a >= b
 ```
 
+##
+- Python if Statement Syntax:
+
+```js
+if expression
+ Statement
+else 
+ Statement
+```
+
+##
 - Python relies on indentation
 
 ```js
