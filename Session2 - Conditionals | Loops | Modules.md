@@ -27,6 +27,12 @@ else
  Statement
 ```
 
+```js
+t = 3
+if t < 4:
+   print ('That's True!')
+```
+
 - 'elif' expression
 
 ```js
