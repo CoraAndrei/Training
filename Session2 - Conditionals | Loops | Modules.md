@@ -23,6 +23,17 @@ Greater than or equal to: a >= b
 ```js
 if expression
  Statement
+```
+
+```js
+t = 3
+if t < 4:
+   print ('That's True!')
+```
+##
+```js
+if expression
+ Statement
 else 
  Statement
 ```
@@ -31,6 +42,8 @@ else
 t = 3
 if t < 4:
    print ('That's True!')
+else:
+   print ('Not True!')
 ```
 
 - 'elif' expression
@@ -69,6 +82,17 @@ range(0, 10, 3) -> 0, 3, 6, 9
 - used for iterating over items of any sequence
 
 ```js
+for val in sequence:
+    instructions in for block
+```
+
+```js
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+```
+
+```js
 # List of numbers
 numbers = [6, 5, 3, 8, 4, 2, 5, 4, 11]
 
@@ -77,7 +101,8 @@ sum = 0
 
 # iterate over the list
 for val in numbers:
-    sum = sum + val
+    if val % 2 == 0:
+       sum = sum + val
 
 print("The sum is ", sum)
 ```
