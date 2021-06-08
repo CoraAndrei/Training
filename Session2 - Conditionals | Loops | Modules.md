@@ -107,3 +107,49 @@ for val in numbers:
 print("The sum is ", sum)
 ```
 
+- 'break' parameter
+- With the break statement we can stop the loop before it has looped through all the items:
+
+```js
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  if x == "banana":
+    break
+```
+
+##
+
+# While Loop
+
+- With the while loop we can execute a set of statements as long as a condition is true.
+
+```js
+while test_expression:
+    Body of while
+```
+
+```js
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+```
+
+## 
+
+# Enumerate
+
+- The enumerate() method adds counter to an iterable and returns it (the enumerate object).
+
+```js
+grocery = ['bread', 'milk', 'butter']
+
+for count, item in enumerate(grocery):
+  print(count, item)
+
+-> 
+0 bread
+1 milk
+2 butter
+```
