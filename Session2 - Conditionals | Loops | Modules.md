@@ -153,3 +153,29 @@ for count, item in enumerate(grocery):
 1 milk
 2 butter
 ```
+
+## 
+
+# Modules
+
+- The module can contain functions, but also variables of all types (arrays, dictionaries, objects etc):
+
+- mymodule.py
+```js
+person1 = {
+  "name": "John",
+  "age": 36,
+  "country": "Norway"
+}
+``` 
+
+```js
+import mymodule
+
+a = mymodule.person1["age"]
+print(a)
+```
+
+
+
+
