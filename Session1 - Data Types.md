@@ -93,25 +93,25 @@ print x is y
  <summary> Click to expand </summary>
  
 ```js
-name = raw_input("Give me a name: ")
+name = input("Give me a name: ")
 print "Your name is: %s" % name
 
-value1= raw_input("Give me a value: ")
-value2= raw_input("Give me anoter name: ")
+value1= input("Give me a value: ")
+value2= input("Give me anoter name: ")
 print 'The sum is: %s' % value1 + value2
 
-value1= int(raw_input("Give me a value: "))
-value2= int(raw_input("Give me anoter name: "))
+value1= int(input("Give me a value: "))
+value2= int(input("Give me anoter name: "))
 sum = int(value1) + int(value2)
 print 'The sum is: %d' % sum
 
-ch = raw_input("Enter a character: ")[0]
+ch = input("Enter a character: ")[0]
 print ch
 
-ch = raw_input("Enter a character: ")[0:6]
+ch = input("Enter a character: ")[0:6]
 print ch
 
-result = eval(raw_input("Give me an expression: "))
+result = eval(input("Give me an expression: "))
 print result
 
 //argv file
