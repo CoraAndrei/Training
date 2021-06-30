@@ -56,6 +56,25 @@ Exercise6:
     - Add number 6 in  the first position of 'numbers' list
     - Sort the 'numbers' list and then print the number of elements from the list
     
+```
 
+## TUPLES | SETS
+```js
+    tuple1 = (1, 2, 3, 4, 5)
+
+
+Exercise1:
+    Assign in one line all the elements from tuple1 to variables n1, n2, n3, n4, n5
+
+Exercise2:
+    Based on tuple1, create a new tuple2 containing elements from index 2 and 3 using list slicing
+   
+Exercise3:
+    Is it possible to append a new element at the end of the tuple?
+    
+Exercise4:
+    tuple3 = (5, 4, 5, 3, 2, 1, 10)
+    Based on sets, create a new tuple named 'tuple4' without having any duplicated elements
     
 ```
+
