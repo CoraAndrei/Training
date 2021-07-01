@@ -1,0 +1,1 @@
+print(f'True is of type {type(True)}')
