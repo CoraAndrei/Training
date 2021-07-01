@@ -40,9 +40,9 @@ Value | 300
 ```js
 x = 300
 y = 300
-print id(x)
-print id(y)
-print x is y
+print (id(x))
+print (id(y))
+print (x is y)
  > 28501818
  > 28501818
  > True
@@ -55,32 +55,32 @@ print x is y
  <summary>Click to expand</summary>
  
  ```js
-- print "True is of type:", type(True)
+- print ("True is of type:", type(True))
   - True is of type: <type 'bool'>
-- print "'ion' is of type:", type('ion')
+- print ('ion' is of type:", type('ion'))
   - ion is of type: <type 'str'>
-- print "100 is of type:", type(100)
+- print ("100 is of type:", type(100))
   - 100 is of type: <type 'int'>
-- print "3.14 is of type:", type(3.14)
+- print ("3.14 is of type:", type(3.14))
   - 100 is of type: <type 'float'>
-- print "[1, 2, 3] is of type:", type([1, 2, 3])
+- print ("[1, 2, 3] is of type:", type([1, 2, 3]))
   - [1, 2, 3] is of type: <type 'list'>
-- print "(1, 2, 3) is of type:", type((1, 2, 3))
+- print ("(1, 2, 3) is of type:", type((1, 2, 3)))
   - (1, 2, 3) is of type: <type 'tuple'>
   
-- print "{1, 2, 3} is of type:", type({1, 2, 3})
+- print ("{1, 2, 3} is of type:", type({1, 2, 3}))
   - {1, 2, 3} is of type: <type 'set'>
-- print "{1: 2}) is of type:", type({1: 2})
+- print ("{1: 2}) is of type:", type({1: 2}))
   - {1: 2}) is of type: <type 'dict'>
   
-- print type(True)
+- print (type(True))
   - <type 'bool'>
-- print type(1)
+- print (type(1))
   - <type 'int'>
   
-- print type(True) == type(1)
+- print (type(True) == type(1))
   - False
-- print True == 1
+- print (True == 1)
   - True
   
  ```
@@ -93,30 +93,30 @@ print x is y
  <summary> Click to expand </summary>
  
 ```js
-name = raw_input("Give me a name: ")
-print "Your name is: %s" % name
+name = input("Give me a name: ")
+print ("Your name is: %s" % name)
 
-value1= raw_input("Give me a value: ")
-value2= raw_input("Give me anoter name: ")
-print 'The sum is: %s' % value1 + value2
+value1= input("Give me a value: ")
+value2= input("Give me anoter name: ")
+print ('The sum is: %s' % value1 + value2)
 
-value1= int(raw_input("Give me a value: "))
-value2= int(raw_input("Give me anoter name: "))
+value1= int(input("Give me a value: "))
+value2= int(input("Give me anoter name: "))
 sum = int(value1) + int(value2)
-print 'The sum is: %d' % sum
+print ('The sum is: %d' % sum)
 
-ch = raw_input("Enter a character: ")[0]
-print ch
+ch = input("Enter a character: ")[0]
+print (ch)
 
-ch = raw_input("Enter a character: ")[0:6]
-print ch
+ch = input("Enter a character: ")[0:6]
+print (ch)
 
-result = eval(raw_input("Give me an expression: "))
-print result
+result = eval(input("Give me an expression: "))
+print (result)
 
 //argv file
 
-print "Name: %s, Age: %d" % ('John', 22)  
+print ("Name: %s, Age: %d" % ('John', 22))  
 ```
 
 </details>
@@ -134,35 +134,35 @@ a = 5
 b = 4
 s = 'string'
 
-print a+b
-print type(a+b)
+print (a+b)
+print (type(a+b))
 
-print a/b 
-print type(a/b)
-//print a//b
+print (a/b) 
+print (type(a/b))
+//print (a//b)
 
-print a*b
-print a%b
-print type(a/b)
+print (a*b)
+print (a%b)
+print (type(a/b))
 
 c = 2.5
-print type(c*a)
-print math.sqrt(b)
+print (type(c*a))
+print (math.sqrt(b))
 
-print str(a) + s
-print s * 5
+print (str(a) + s)
+print (s * 5)
 
 > Operations with Strings
 s = 'hi'
 c = 5
 
-print s[1]
-print len(s)
-print s + 'there'
+print (s[1])
+print (len(s))
+print (s + 'there')
 
-print 'Value of c is:' + c
-print 'Value of c is:' + str(c)
-print 'value of c is: %d ' % c
+print ('Value of c is:' + c)
+print ('Value of c is:' + str(c))
+print ('value of c is: %d ' % c)
 ```
 
 </details>
@@ -177,50 +177,50 @@ print 'value of c is: %d ' % c
 a = [1, 2, 3, 4, 5]
 b = a
 
-print a
-print type(a)
+print (a)
+print (type(a))
 
 a.append(6)
-print a
+print (a)
 a.append(['ana', 'are', 'mere']) #use also extend to see the list length difference
-print a
-print len(a)
+print (a)
+print (len(a))
 
 a.insert(1, 'new')
-print a
+print (a)
  
 #time_difference_file
 
 >Functions 'pop and remove'
 a = [1, 2, 3, 4, 5, 1]
 a.pop(1) #use also remove to see the difference
-print a
+print (a)
 
 >Function index
-print a.index(2)
+print (a.index(2))
 
 >Function reverse
 a.reverse()
-print a
+print (a)
 
 >Function sort
 a.sort()
-print a
+print (a)
 
 >Slicing
 a = [1, 2, 3, 4, 5]
-print a[2:4]
-print a[:2]
-print a[2:]
+print (a[2:4])
+print (a[:2])
+print (a[2:])
 
 b = a 
 b[1] = 'elem'
-print b
-print a
+print (b)
+print (a)
 b= a[:]
 b[1] = 2
-print '\n', b
-print a
+print ('\n', b)
+print (a)
 ```
 Exercises: https://pynative.com/python-list-exercise-with-solutions/
 
@@ -234,43 +234,43 @@ Exercises: https://pynative.com/python-list-exercise-with-solutions/
  
 ```js
 a = (1)
-print type(a)
+print (type(a))
 a = (1,)
-print type(a)
+print (type(a))
 a = (1, 2, 2, 2, 3, 4, 2)
-print 'a =', a
-print '2 apare de %s ori in tupla' % a.count(2)
-print '4 apare in tupla pe pozitia %d' % a.index(4)
+print ('a =', a)
+print ('2 apare de %s ori in tupla' % a.count(2))
+print ('4 apare in tupla pe pozitia %d' % a.index(4)
  
 my_list = [1, 2, 3]
 my_set = {4, 5, 6}
-print tuple(my_list)
-print tuple(my_set)
+print (tuple(my_list))
+print (tuple(my_set))
  
-print '*' * 60
+print ('*' * 60)
 a = [1, 2, 3, 4]
 b = (5, 6, 7, a)
-print b
+print (b)
 
 a.append(9)
-print b
+print (b)
 c = [9999, 333]
 a = 1, 2, 3, 4, 5, c
-print a
-print type(a)
+print (a)
+print (type(a))
 
-print a[5][0]
+print (a[5][0])
 a, b = 1, 2
-print a
-print b
+print (a)
+print (b)
  
 // a, b = 1, 2, 3
  
 a = (11, 22, 33)
 a1, a2, a3 = a
-print a1
-print a2
-print a3
+print (a1)
+print (a2)
+print (a3)
 # a[0] = 1
 ```
 
@@ -284,10 +284,10 @@ print a3
 ```js
 a = {1, 2, 3}
 b = set([1,2,3])
-print type(a), type(b)
+print (type(a), type(b))
 
 a.add(4)
-print 'a =', a
+print ('a =', a)
 
 //a.add(5, 6)
 //len(a)
@@ -298,31 +298,31 @@ print 'a =', a
 
 b = a
 b.add(9)
-print a,b
+print (a,b)
 
 b = a.copy()
 b.add(10)
-print a,b
+print (a,b)
 a.remove(1)
 a.pop
 
 #Operation between two sets
 diff = b.difference(a)
-print 'b-a: ', diff
+print ('b-a: ', diff)
 
 uni = a.union(b)
-print 'a+b: ', uni
+print ('a+b: ', uni)
 
 inter = a.intersection(b)
-print 'a intersected with b: ', inter
+print ('a intersected with b: ', inter
 
 // converting to and from lists
 my_list = [1, 2, 3]
 my_set = set(my_list)
-print my_set
+print (my_set)
 
 my_new_list = list(my_set)
-print my_new_list
+print (my_new_list)
 ```
 
 </details>
@@ -335,37 +335,37 @@ print my_new_list
 ```js
 //basics
 a  = {'key': 'value'}
-print a
-print type(a)
+print (a)
+print (type(a))
 
 a[1] = 10
-print a
+print (a)
 
 a['list'] = [1, 2, 3]
 a[1, 2] = (1,2)   #tuple as a key
-print a
+print (a)
 
 a[[1, 2]] = [1, 2, 3]   #list as a key
-print a
+print (a)
 a  = {'first': 'element', 1: 4, 'third': 5, (1, 2): None, 'testing': 'another one'}
-print a
+print (a)
 
 > Operations with dictionaries
 #delete operation
 del a['third']
-print a
+print (a)
 
 //add operation
 a['third'] =  4
-print a
+print (a)
 
 //update operation
 a['third'] = 5
-print a
+print (a)
 
-print 'Dictionary keys:', a.keys()
-print 'Dictionary values:', a.values()
-print 'Dictionary items:', a.items()
+print ('Dictionary keys:', a.keys())
+print ('Dictionary values:', a.values())
+print ('Dictionary items:', a.items())
 ```
 
 </details>
@@ -382,43 +382,43 @@ import time
  
 current_date = datetime.datetime.now()
  
-print type(current_date)
-print current_date
+print (type(current_date))
+print (current_date)
 
 tday = datetime.date.today()
-print(tday.weekday())
-print(tday.isoweekday())
+print(tday.weekday()))
+print(tday.isoweekday()))
 
 tdelta = datetime.timedelta(days=7)
-print tday + tdelta
+print (tday + tdelta)
 
 my_custom_date = datetime.datetime(2000, 12, 12, 14, 59, 59)
-print type(current_date)
-print my_custom_date
+print (type(current_date))
+print (my_custom_date)
 
 t1 = datetime.datetime.now()
-print t1
+print (t1)
 time.sleep(5)
 t2 = datetime.datetime.now()
-print t2
+print (t2)
 dif = t2 - t1
-print dif
-print type(dif)
+print (dif)
+print (type(dif))
 
 from datetime import datetime as dt
  
 now = dt.now()
-print now
+print (now)
  
 # printing date in a custom format
 my_now = now.strftime('%A, %d %B %Y')
-print my_now
+print (my_now)
  
 # constructing a datetime object from a string
 str_date = "22/03/2012 - 09:57"
 new_date = dt.strptime(str_date, "%d/%m/%Y - %H:%M")
-print new_date
-print type(new_date)
+print (new_date)
+print (type(new_date))
 ```
 
 </details>
