@@ -23,7 +23,7 @@ Exercise6:
 Exercise7:
     list4 = ['Ana', 'are', 'mere']
     list5 = [5, 6, 7, 8]
-    Print message: 'Ana 5 are 67 mere' using list slicing. Hint: Be careful for concatenation of different data types.
+    Print message: 'Ana 5 are 67 mere' using list indexes. Hint: Be careful for concatenation of different data types.
     
 ```
 
