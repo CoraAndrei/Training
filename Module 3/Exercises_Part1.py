@@ -10,7 +10,7 @@ b = 15
 c = 30
 
 # 4. Define a dictionary with at least 6 key value pairs and print the first the 1 the 2 and the 6 values from the dict.
-qa_team = []  #dictionary
+qa_team = []  # dictionary
 
 # 5. Check if a number is odd or even and print if the number is even or odd.( Hint %2==0)
 case_1_num = 65443
