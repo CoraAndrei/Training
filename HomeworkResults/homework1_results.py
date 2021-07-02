@@ -65,7 +65,7 @@ print ("The elements from index 2 and 3 are " )
 print(tuple2)
 
 # Exercise3: Is it possible to append a new element at the end of the tuple?
-# R: Touples items are unchangeable
+print("Touples items are unchangeable")
 
 # Exercise4:
 tuple3 = (5, 4, 5, 3, 2, 1, 10)
