@@ -184,6 +184,6 @@ fun_expenses = 33
 monthly_income = 500
 
 if monthly_expenses > fun_expenses or monthly_expenses > monthly_income:
-  remaining_budget = monthly_income - monthly_expenses
+  remaining_budget = monthly_income - monthly_expenses - fun_expenses
   print(f"At least one statemet is true you have more money $$${remaining_budget} then you think !!!!")
   print('                ')
