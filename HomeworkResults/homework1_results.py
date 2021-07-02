@@ -50,7 +50,7 @@ print( message )
 
 # Tuples/Sets
 
-tuple1 = (1, 2, 3, 4, 5)
+tuple1 = (1,2,3,4,5)
 #Exercise1: Assign in one line all the elements from tuple1 to variables n1, n2, n3, n4, n5
 n1,n2,n3,n4,n5= tuple1
 print(n1)
@@ -60,7 +60,7 @@ print(n4)
 print(n5)
 
 # Exercise2: Based on tuple1, create a new tuple2 containing elements from index 2 and 3 using list slicing
-tuple2 = tuple1[2:3:1]
+tuple2 = tuple1[2:4:1]
 print ("The elements from index 2 and 3 are " )
 print(tuple2)
 
@@ -133,6 +133,7 @@ dict_list['numbers'].insert(0,6)
 print("The 'numbers' list from the dictionary is: ")
 print(dict_list)
 #- Sort the 'numbers' list and then print the number of elements from the list
+
 dict_list["numbers"].sort()
 print("The sorted 'numbers' list is:-")
 print(dict_list)
