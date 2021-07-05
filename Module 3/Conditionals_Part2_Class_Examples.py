@@ -62,10 +62,8 @@ for k in dict.values():
 for v in dict:
     print(dict[v])
 
-
-
-i, j = (1,2)
-print(i,j)
+i, j = (1, 2)
+print(i, j)
 
 for i, j in [(1, 2), (3, 4), (5, 6), (6, 7)]:
     print(i, j)
@@ -74,7 +72,6 @@ print(dict.items())
 
 for k, v in dict.items():
     print('key =', k, 'value = ', v)
-
 
 print('       Range Function      ')
 
@@ -86,7 +83,7 @@ print('      EX4      ')
 # stop - Required. An integer number specifying at which position to stop (not included).
 # step - Optional. An integer number specifying the incrementation. Default is 1
 
-my_range = range(3,6)
+my_range = range(3, 6)
 
 for i in my_range:
     print(i)
@@ -96,7 +93,6 @@ my_range_step = range(3, 21)
 for i in my_range_step:
     print(i)
 
-
 for n in (0, 1, 2, 3, 4, 5, 6, 7, 8):
     print(n)
 
@@ -104,32 +100,28 @@ my_range = range(5, 20, 3)
 for i in my_range:
     print(i)
 
-print(list(range(-10,5)))
+print(list(range(-10, 5)))
 
-print(list(range(5,-5)))
+print(list(range(5, -5)))
 
-print(list(range(5,-10, -1)))
+print(list(range(5, -10, -1)))
 
 print(tuple(my_range))
 
 print('       For over dict       ')
 
-print('      EX4      ')
-
+print('      EX5      ')
 
 for i in ['aaa', 'bbb', 'ccc']:
     print(i)
 else:
     print('I am done looping over the list')
 
-for i in ['aaa', 'bbb', 'ccc']:
-    if i == 'aaa':
+for i in ['ddd', 'eee', 'zzz']:
+    if i == 'zzz':
     # if i == 'xxx':
         break
     print(i)
 else:
     print('i am not in the else case')
-    #print('i am in the else')
-
-
-
+    # print('i am in the else')
