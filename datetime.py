@@ -1,25 +1,19 @@
-import datetime
+import sys
+from datetime import datetime
 
-now = datetime.datetime.now()
+now = datetime.now() # current date and time
 
-print
-print "Current date and time using str method of datetime object:"
-print str(now)
+year = now.strftime("%Y")
+print("year:", year)
 
-print
-print "Current date and time using instance attributes:"
-print "Current year: %d" % now.year
-print "Current month: %d" % now.month
-print "Current day: %d" % now.day
-print "Current hour: %d" % now.hour
-print "Current minute: %d" % now.minute
-print "Current second: %d" % now.second
-print "Current microsecond: %d" % now.microsecond
+month = now.strftime("%m")
+print("month:", month)
 
-print
-print "Current date and time using strftime:"
-print now.strftime("%Y-%m-%d %H:%M")
+day = now.strftime("%d")
+print("day:", day)
 
-print
-print "Current date and time using isoformat:"
-print now.isoformat()
+time = now.strftime("%H:%M:%S")
+print("time:", time)
+
+date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("date and time:",date_time)
