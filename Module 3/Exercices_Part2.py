@@ -55,7 +55,8 @@ for i in range(5):
 # Given:
 #
 input_number = 6
-#
+
+
 # Expected output:
 #
 # Current Number is : 1  and the cube is 1
